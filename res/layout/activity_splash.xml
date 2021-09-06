@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SplashActivity">
+
+    <View
+        android:id="@+id/viewSplash_01"
+        android:layout_width="match_parent"
+        android:layout_height="152dp"
+        android:layout_marginTop="0dp"
+        android:background="@color/sky_blue" />
+
+    <View
+        android:id="@+id/viewSplash_02"
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:background="@drawable/ic_wave_splash_01"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:cardElevation="50dp"
+        android:layout_gravity="center_horizontal"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="50dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/splash_screen_logo"
+                android:contentDescription="@string/todo_splash_screen" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/ic_wave_splash_02"/>
+
+    <View
+        android:id="@+id/viewSplash_04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/sky_blue"
+        android:layout_marginBottom="0dp"/>
+
+</LinearLayout>
